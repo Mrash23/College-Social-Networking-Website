@@ -1,0 +1,38 @@
+  .h1{
+	text-align:center;
+    color:#362266;
+} 
+
+/* form p {
+	color: red;
+	margin: 0px;
+} */
+
+
+table {
+    width: 50%;
+    margin: 30px auto;
+	border:5px;
+	text-align: center;
+    /* border-collapse: collapse; */
+}
+
+/* tr { */
+	/* border-bottom: 1px solid #cbcbcb; */
+/* } */
+
+th {
+	font-size: 19px;
+	color: #362266;
+}
+
+th, td{
+	/* border: none; */
+    height: 30px;
+    padding: 2px;
+}
+
+
+
+
+

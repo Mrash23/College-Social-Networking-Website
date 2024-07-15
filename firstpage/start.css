@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:80vh;
+    background-color: #0a0270;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(186, 190, 190);
+    padding: 20px 0px 25px 0px;
+    font-size: 20px;
+
+}
+.text{
+    text-align: left;
+    font-style: italic;
+}
+.staff{
+    background-color: rgb(186, 190, 190);
+    width: 300px;
+    height:250px;
+    border-radius: 10px;
+    margin: 20px;
+    padding:20px;
+    /* border: 2px solid black; */
+}
+h3 {
+   padding : 0px 0px 22px 8px;
+}
+/* i{
+    width: 300px;
+    height: 50px;
+    padding: 10px 0px;
+    font-size: 50px;
+    text-align: center;
+    
+} */
+.student{
+    background-color: rgb(186, 190, 190);
+    width: 300px;
+    height:250px;
+    margin: 20px;
+    border-radius: 10px;
+    padding:20px;
+    /* border: 2px solid black; */
+}
+.admin{
+    background-color: rgb(186, 190, 190);
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    height:250px;
+    padding:20px;
+    /* border: 2px solid rgb(252, 6, 232); */
+}
+.admin:hover{
+    box-shadow: 0.1px 0.11px 30px 0.1px rgb(240, 244, 241);
+}
+.student:hover{
+    box-shadow: 0.1px 0.11px 30px 0.1px rgb(234, 238, 235);
+}
+.staff:hover{
+    box-shadow: 0.1px 0.11px 30px 0.1px rgb(241, 246, 242);
+}
+.btn{
+    margin: 20px 0px 0px 20px;
+}
+
+button{
+    font-size: 15px;
+    padding: 5px 30px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+    color: rgb(18, 14, 14);
+}
+button:hover{
+    background-color: #0a0270;
+    color: white;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+/* @media screen and (max-width:770px){
+    .container{
+        height: 70vh;
+    }
+} */
+@media only screen and (max-width:920px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-height: 1000px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:540px){
+    
+    .heading{
+        width: 138%;
+
+    }.container{
+        display: flex;
+        flex-direction: row;
+        width: 138%;
+        max-height: 1100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .staff{
+        width: 250px;
+    }
+    .student{
+        width: 250px;
+    }
+    .admin{
+        width: 250px;
+    }
+}
+@media screen and (max-width:1030px){
+    .container{
+        height: 120vh;
+    }
+}
